@@ -2,7 +2,7 @@
 
 <?php 	
 $Numrow = $_POST['numrows'];
-$url = "actcS/actc".$Numrow.".php";
+$url = "actc".$Numrow.".php";
 
 header("Location: $url");
 ?>
